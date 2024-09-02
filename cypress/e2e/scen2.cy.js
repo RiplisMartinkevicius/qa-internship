@@ -24,7 +24,7 @@ it("Should filter section to show the cheapest products available.", () => {
   cy.get("#sorter").should("be.visible").select("Price");
 });
 
-it("Should select the cheapest pants and add them to the cart.", () => {
+it("Should select the cheapest pants.", () => {
   cy.wait(6000);
   cy.get("div#option-label-size-143-item-171")
     .first()

@@ -62,7 +62,7 @@ describe("Scenario one", () => {
   it("Should proceed to checkout.", () => {
     cy.get("button[data-role='proceed-to-checkout']")
       .should("be.visible")
-      .click({ multiple: true });
+      .click();
   });
 
   it("Should complete the order.", () => {
