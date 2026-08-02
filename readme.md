@@ -1,5 +1,7 @@
 # Tasks for a QA internship using Cypress
 
+These tasks verify checkout flow, cart operations, filtering.
+
 ### Prerequisites
 
 - Install Node.js.
